@@ -1,0 +1,174 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-osx-box-sizing: border-box;
+}
+
+
+header
+{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 20px;
+        background: #3399ff;
+}
+
+section#banner
+{
+   text-align: center;
+   margin: auto;
+   padding: 20px;
+   color: white;
+}
+
+
+
+header #btnmenu
+{
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+header #btnmenu:hover
+{
+    box-shadow: none;
+    
+}
+
+
+header .btn-close
+{
+    padding: 20px;
+    color: #000;
+}
+
+header .btn-close:hover
+{
+    box-shadow: none;
+}
+
+
+header #button-menu
+{
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+header #button-menu:hover
+{
+    color: #000;
+}
+
+#navigation
+{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 0%;
+	height: 100vh;
+	background: rgba(0,0,0,.0);
+
+}
+
+
+#navigation #title-menu
+{
+	padding: 20px 80px;
+	background: #3399ff;
+	color: #fff;
+        border-radius: 5px; 
+	font-size: 20px;
+}
+
+#navigation #title-menu span
+{
+        margin-right: 15px;
+}
+
+#navigation #menu
+{
+  list-style: none;
+}
+
+#navigation #menu a
+{
+	display: block;
+	padding: 30px;
+	border-bottom: 1px solid #ccc;
+	font-size: 25px;
+	font-weight: 200;
+	text-decoration: none;
+	color: #000;
+}
+
+#navigation #menu a:hover
+{
+        background: #3399ff;
+	color: #fff;
+        transition: all .3s ease;
+}
+
+#navigation #menu li span
+{
+	margin-right: 15px;
+}
+
+
+
+#navigation #submenu li#title-menu
+{
+	background: #00ccff;
+	color: #fff;
+        
+}
+
+
+@media screen and (max-width: 320px)
+{
+	#navigation ul{
+		width: 100%;
+	}
+}
+
+.resultadoR 
+{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+#resultadoR.ok 
+{
+    background-color: green;
+}
+
+.resultadoC 
+{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+#resultadoC.ok 
+{
+    background-color: green;
+}
+
+.resultadoCI 
+{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+#resultadoCI.ok 
+{
+    background-color: green;
+}

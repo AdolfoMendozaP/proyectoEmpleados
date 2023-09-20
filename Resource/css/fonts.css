@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?v95bfl');
+  src:  url('fonts/icomoon.eot?v95bfl#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?v95bfl') format('truetype'),
+    url('fonts/icomoon.woff?v95bfl') format('woff'),
+    url('fonts/icomoon.svg?v95bfl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Inicio:before {
+  content: "\e902";
+}
+.icon-Editar:before {
+  content: "\e905";
+}
+.icon-DatosPe:before {
+  content: "\e922";
+}
+.icon-DatosLa:before {
+  content: "\e923";
+}
+.icon-Consultar:before {
+  content: "\e944";
+}
+.icon-Guardar:before {
+  content: "\e962";
+}
+.icon-IngresarEmpleado:before {
+  content: "\e971";
+}
+.icon-AgregarEm:before {
+  content: "\e973";
+}
+.icon-Buscar:before {
+  content: "\e986";
+}
+.icon-Incapacidad:before {
+  content: "\e998";
+}
+.icon-Eliminar:before {
+  content: "\e9ac";
+}
+.icon-Empleados:before {
+  content: "\e9ae";
+}
+.icon-Menu:before {
+  content: "\e9bd";
+}
+.icon-Ver:before {
+  content: "\e9ce";
+}
+.icon-Agregar:before {
+  content: "\ea0a";
+}
+.icon-PDF:before {
+  content: "\eadf";
+}
